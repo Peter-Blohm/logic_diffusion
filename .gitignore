@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+!*./
+# Whitelist specific file types
+!*.py
+!*.yml
+!*.sh
+!*.bash
+
+# Keep .gitignore itself
+!.gitignore

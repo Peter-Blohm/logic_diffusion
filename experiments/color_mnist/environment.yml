@@ -1,0 +1,19 @@
+name: color-mnist-composition
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy=1.26.*
+  - pandas=2.2.*
+  - matplotlib-base=3.8.*
+  - tqdm
+  - pillow
+  - pip:
+      - transformers==4.27.4
+      - jaxtyping
